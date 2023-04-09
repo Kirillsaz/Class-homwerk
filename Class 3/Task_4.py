@@ -7,3 +7,4 @@ def my_func(x, y):
         return my_func(x, y / 2) ** 2
     else:
         return x * my_func(x, y - 1)
+print(my_func(3, 6))
